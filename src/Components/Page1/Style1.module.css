@@ -1,0 +1,80 @@
+.skip{
+    text-align: center;
+    background-color: rgb(182, 179, 179);
+    border-radius: 40px;
+    color: rgb(109, 106, 106);
+    width: 15vw;
+    height: 25px;
+    margin-left: 80vw;
+    margin-top: 6vw;
+    margin-bottom: 80vw;
+}
+.log{
+    font-size: 3vw;
+    color: rgb(156, 152, 152);
+    margin-bottom: 3vw;
+}
+.number{
+    margin-left: 10vw;
+    width: 80vw;
+    height: 9vw;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.nine{
+    margin-top: 1vw;
+}
+.input{
+    text-decoration: none;
+    margin-left: 2vw;
+}
+.continue{
+    margin-left: 10vw;
+    width: 80vw;
+    height: 10vw;
+    background-color: rgb(203, 203, 203);
+    color: black;
+    margin-top: 5vw;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.hr{
+    position: relative;
+    top: 46px;
+    border: none;
+    height: 1px;
+    background: black;
+    margin-bottom: 50px;
+    width: 37vw;
+    display: inline-block;
+    /* border-top: dotted; */
+    color: rgb(171, 165, 165);
+}
+.or{
+    margin-top: -40px;
+    color: rgb(171, 165, 165);
+}
+.img1,.img2{
+    margin: 5px;
+}
+.acc{
+    color: rgb(171, 165, 165);
+    font-size: 3vw;
+}
+.sign{
+    color: red;
+    font-size: 3.2vw;
+}
+.term{
+    width: 70vw;
+    margin-left: 15vw;
+    font-size: 3vw;
+    color: rgb(171, 165, 165);
+    margin-top: 8vw;
+}
