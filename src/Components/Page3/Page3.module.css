@@ -1,0 +1,54 @@
+.back{
+    margin-top: 6vw;
+    text-align: left;
+    padding-left: 6vw;
+}
+.name{
+    text-align: left;
+    padding-left: 10vw;
+    font-size: 3.5vw;
+    font-weight: 600;
+    margin-top: 20vw;
+}
+.like{
+    margin-top: 10vw;
+    text-align: left;
+    padding-left: 10vw;
+    font-weight: 600;
+    font-size: 3.5vw;
+}
+.sub{
+    margin-top: 1vw;
+    text-align: left;
+    padding-left: 10vw;
+    font-weight: 600;
+    font-size: 2.5vw;
+    color: rgb(171, 165, 165);
+}
+.items{
+    margin-top: 1vw;
+    text-align: left;
+    padding-left: 10vw;
+}
+.item{
+    margin-top: 7vw;
+}
+.continue{
+    margin-left: 10vw;
+    width: 80vw;
+    height: 10vw;
+    background-color: rgb(203, 203, 203);
+    color: black;
+    margin-top: 7vw;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.last{
+    width: 100vw;
+    background-color: rgb(203, 203, 203);
+    margin-top: 6vh;
+    height: 35.29vh;
+}
