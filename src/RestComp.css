@@ -1,0 +1,14 @@
+.horzdisp
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    line-height: 1vw;
+    font-size: 3vw;
+}
+.temp1
+{
+    height:20vh;
+    width:100%;
+    background-color: rgb(128, 128, 128,0.2);
+}
