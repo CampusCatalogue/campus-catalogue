@@ -1,11 +1,11 @@
-import './RestComp.css'
-import menu from './images/bxs_food-menu.png'
-import rating from './images/Group 27.png'
+import "./RestComp.css";
+import menu from "../../images/bxs_food-menu.png";
+import rating from "../../images/Group 27.png";
 const RestComp = () => {
-    return ( 
+    return (
         <div>
-            <div className='temp1'></div>
-            <div className='horzdisp'>
+            <div className="temp1"></div>
+            <div className="horzdisp">
                 <div>
                     <p>Restarant name 1</p>
                     <p>Chinese</p>
@@ -20,7 +20,7 @@ const RestComp = () => {
                 </div>
             </div>
         </div>
-     );
-}
- 
+    );
+};
+
 export default RestComp;
