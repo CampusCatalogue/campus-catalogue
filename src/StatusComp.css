@@ -1,0 +1,26 @@
+.status
+{
+    display: flex;
+    justify-content: end;
+    display: grid;
+    background-color: grey; 
+    border: 1px solid black;
+    position: absolute;
+    right: 0%;
+    width:36vw;
+}
+.showstatus
+{
+    width:4.9vw;
+    height:1.1vw;
+    background-color: rgba(27, 25, 25, 0.5);
+}
+.horzstat
+{
+    display: flex;
+    justify-content: space-between;
+}
+.on
+{
+    background-color: green;
+}

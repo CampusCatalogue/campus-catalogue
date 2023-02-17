@@ -1,0 +1,12 @@
+.rect
+{
+    background-color: gray;
+    border: black 1px solid;
+    color: black;
+    border-radius: 10%;
+    padding: 1vw;
+    width: 13vw;
+    height: 1vh;
+    font-size: 8px;
+       
+}
