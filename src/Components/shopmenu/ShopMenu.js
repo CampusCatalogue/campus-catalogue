@@ -1,6 +1,5 @@
 // sm ---> ShopMenu
-
-import React, { useEffect, useState } from "react";
+import React, { useRef,useEffect, useState } from "react";
 import "./shopmenu.css";
 import SearchIcon from "../../assets/images/shopmenuimg/searchicon.png";
 import BackIcon from "../../assets/images/shopmenuimg/backbtnicon.png";
@@ -10,13 +9,31 @@ import NonVegIcon from "../../assets/images/shopmenuimg/nonveg.png";
 import FullStar from "../../assets/images/shopmenuimg/fullstar.png";
 import HalfStar from "../../assets/images/shopmenuimg/halfstar.png";
 import EmptyStar from "../../assets/images/shopmenuimg/emptystar.png";
-
+import {Text, Animated} from 'react-native';
 function ShopMenu() {
   let [menu, setMenu] = useState(false);
   const handleMenuClick = () => {
     setMenu(!menu);
   };
+const func=()=>{
 
+  console.log("clicked");
+}
+const animatedScale = useRef(new Animated.Value(0)).current;
+
+  useEffect(() => {
+    animatedScale.setValue(1);
+  }, []);
+
+  const handleOnPress = () => {
+    animatedScale.setValue(0.8);
+    Animated.spring(animatedScale, {
+      toValue: 1,
+      bounciness: 24,
+      speed: 20,
+      useNativeDriver: true,
+    }).start();
+  };
   return (
     <div>
       <div className="header">
@@ -48,11 +65,11 @@ function ShopMenu() {
         </div>
       </div>
       <div className="foodtypebtns">
-        <button type="button" className="vegbtn">
+        <button type="button" className="vegbtn" onClick={handleOnPress}>
           <img src={VegIcon} alt="" className="" />
           Veg
         </button>
-        <button type="button" className="nonvegbtn">
+        <button type="button" className="nonvegbtn" onClick={func}>
           <img src={NonVegIcon} alt="" className="" />
           Non Veg
         </button>
