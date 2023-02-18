@@ -11,5 +11,7 @@
 {
     height:20vh;
     width:100%;
-    background-color: rgb(128, 128, 128,0.2);
+    background-image: url("../../images/restaurant\ 1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 20vh;
 }
