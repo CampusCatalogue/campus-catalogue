@@ -9,17 +9,20 @@ import StatusComp from "./StatusComp";
 import MoodComp from "./MoodComp";
 import search from "../../images/ri_search-line.png";
 import DishesComp from "./DishesComp";
+import { Link } from "react-router-dom";
 import "./landing_page.css";
 const LandingPage = () => {
     return (
         <div style={{ overflowY: "hidden" }}>
             <div className="topmost" style={{ height: "45vw" }}>
                 <div className="horzsp1">
-                    <img
-                        style={{ width: "7vw", height: "7vw" }}
-                        src={hamburger}
-                        alt=""
-                    />
+                    <Link to="/login">
+                        <img
+                            style={{ width: "7vw", height: "7vw" }}
+                            src={hamburger}
+                            alt=""
+                        />
+                    </Link>
                     <div className="searchbox">
                         <img className="searchicn" src={search} alt="" />
                         <input
@@ -54,25 +57,25 @@ const LandingPage = () => {
                 <p>Hey what is your Mood?</p>
                 <div className="mood">
                     <div className="moodouter">
-                    <MoodComp></MoodComp>
+                        <MoodComp></MoodComp>
                     </div>
                     <div className="moodouter">
-                    <MoodComp></MoodComp>
+                        <MoodComp></MoodComp>
                     </div>
                     <div className="moodouter">
-                    <MoodComp></MoodComp>
+                        <MoodComp></MoodComp>
                     </div>
                     <div className="moodouter">
-                    <MoodComp></MoodComp>
+                        <MoodComp></MoodComp>
                     </div>
                     <div className="moodouter">
-                    <MoodComp></MoodComp>
+                        <MoodComp></MoodComp>
                     </div>
                     <div className="moodouter">
-                    <MoodComp></MoodComp>
+                        <MoodComp></MoodComp>
                     </div>
                     <div className="moodouter">
-                    <MoodComp></MoodComp>
+                        <MoodComp></MoodComp>
                     </div>
                 </div>
             </div>
@@ -92,22 +95,25 @@ const LandingPage = () => {
                 </div>
             </div>
             <div>
-                <p style={{marginTop:"5%"}} >Restaurants around you</p>
+                <p style={{ marginTop: "5%" }}>Restaurants around you</p>
                 <RestComp></RestComp>
             </div>
             <div className="horzimages">
                 <div className="vert">
                     <img style={{ width: "4vh" }} src={myorder} alt="" />
+
                     <p className="spps">Dining</p>
                 </div>
                 <div className="vert">
                     <img style={{ width: "4vh" }} src={food} alt="" />
                     <p className="spps">Food</p>
                 </div>
-                <div className="vert">
-                    <img style={{ width: "4vh" }} src={dining} alt="" />
-                    <p className="spps">My Order</p>
-                </div>
+                <Link to="/Confirm">
+                    <div className="vert">
+                        <img style={{ width: "4vh" }} src={dining} alt="" />
+                        <p className="spps">My Order</p>
+                    </div>
+                </Link>
             </div>
         </div>
     );
