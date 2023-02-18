@@ -1,0 +1,148 @@
+*{
+    text-align: left;
+    margin: 0px;
+}
+.top{
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 8vw;
+    margin-bottom: 2vh;
+}
+.topSpan{
+    margin-left: 5vw;
+    font-weight: bolder;
+}
+.div1{
+    margin-left: 20px;
+    width: 60vw;
+    padding: 5px;
+    font-size: 4.5vw;
+}
+.notifs{
+    width: 85vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 3vw;
+    height: 4vh;
+    background-color: rgb(225, 219, 219);
+    color: rgb(0, 0, 0);
+    padding-top: 3vw;
+    border-radius: 50px;
+    font-size: 4vw;
+    padding-left: 20px;
+    font-weight: bold;
+}
+.soundAlarm{
+    display: flex;
+    justify-content: space-around;
+    font-size: 3.5vw;
+    margin-bottom: 5px;
+}
+.rect{
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    background-color: rgb(225, 219, 219);
+    height: 20vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+.card{
+    width: 85vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    height: 10vh;
+    background-color: rgb(225, 219, 219);
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 20px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+}
+.cardHead{
+    font-weight: bolder;
+    font-size: 5vw;
+}
+.card1{
+    margin-top: 4vw;
+}
+.card1>div{
+    display: inline-block;
+    margin-right: 3vw;
+}
+.right1{
+    margin-left:46vw;
+}
+.right2{
+    margin-left:1vw;
+}
+.right3{
+    margin-left:37vw;
+}
+.rect1{
+    width: 15vw;
+    height: 2vh;
+    background-color: gray;
+}
+.cardSubHead{
+    font-weight: bold;
+    font-size: 3.8vw;
+}
+.payment{
+    background-color: orange;
+    color: white;
+    font-size: 10vw;
+    font-weight: bolder;
+    /* padding: 10vw; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:90vw;
+    height: 10vh;
+    margin-top: 10vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 4vh;
+    border-radius: 20px;
+}
+.notifs>span{
+    display: inline-block;
+}
+.check{
+    margin-left: 20vw;
+}
+.first{
+    width: 20vw;
+    background-color: rgb(70, 70, 216);
+    height: 1vh;
+    border: black 1px solid;
+}
+.one{
+    width: 4vw;
+    height: 2vw;
+    background-color: white;
+    border-radius: 50px;
+    border: black 1px solid;
+}
+.second{
+    width: 20vw;
+    background-color: gray;
+    height: 1.5vh;
+    border: black 1px solid;
+}
+.two{
+    width: 4vw;
+    height: 2vw;
+    border: black 1px solid;
+    background-color: white;
+    border-radius: 50px;
+}
+.on{
+    background-color: white;
+    color: black;
+    width: 40vw;
+    height: 5vh;
+    border-radius: 50px;
+    margin-left: 10vw;
+}
