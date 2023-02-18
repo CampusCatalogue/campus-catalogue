@@ -10,16 +10,16 @@ function Page2() {
             <div className={styles.num}>+91 88888888</div>
         </div>
         <div className={styles.digit}>
-            <div className={styles.item}></div>
-            <div className={styles.item}></div>
-            <div className={styles.item}></div>
-            <div className={styles.item}></div>
-            <div className={styles.item}></div>
-            <div className={styles.item}></div>
+            <input type="number" pattern="[0-9]*" maxLength='1' className={styles.item}></input>
+            <input type={'number'} pattern="[0-9]*" maxLength='1' className={styles.item}></input>
+            <input type={'number'} pattern="[0-9]*" maxLength='1' className={styles.item}></input>
+            <input type={'number'} pattern="[0-9]*" maxLength='1' className={styles.item}></input>
+            <input type={'number'} pattern="[0-9]*" maxLength='1' className={styles.item}></input>
+            <input type={'number'} pattern="[0-9]*" maxLength='1' className={styles.item}></input>
         </div>
         <div className={styles.sms}>
-            <div className={styles.sms1}>Resend SMS</div>
-            <div className={styles.sms2}>Call Me</div>
+            <button className={styles.sms1}>Resend SMS</button>
+            <button className={styles.sms2}>Call Me</button>
         </div>
         <div className={styles.other}>Try other log in methods</div>
     </>
