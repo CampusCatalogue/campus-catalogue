@@ -28,17 +28,18 @@ function App() {
                  <Route exact path="/signinAuth" component={SignIn} />  */}
                      <Router>
                 <Routes>
+                    <Route path="/signupAuth" element={<SignUp/>}></Route>
                     <Route path="/login" element={<Page1 />} />
                     <Route path="/signup" element={<Page2 />} />
                     <Route path="/aboutyou" element={<Page3 />} />
                     <Route path="/" element={<LandingPage />} />
                     <Route path="/ShopMenu" element={<ShopMenu />} />
 
+                </Routes>
+            </Router>
                     {/* <Page2 /> */}
                     {/* <Page3 /> */}
                     {/* {<ShopMenu />} */}
-                </Routes>
-            </Router>
                 
 
             {/* </Router> */}

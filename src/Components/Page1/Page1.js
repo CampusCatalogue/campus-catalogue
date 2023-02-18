@@ -1,8 +1,32 @@
+import firebase from 'firebase/app'
 import React from "react";
 import styles from "./Style1.module.css";
 import img1 from "./Google.png";
 import img2 from "./Dots.png";
+import { Link } from "react-router-dom";
+import { auth,provider } from "../../firebase";
+import {signInWithPopup} from "firebase/auth";
+import { useState,useEffect } from "react";
+
 function Page1() {
+//  const handleClick=()=>{
+//   console.log(" e tg")
+//       return <Navigate to="/signupAuth"/>;
+//   }
+const [value, setValue] = useState("");
+
+const handleClick=()=>{
+  signInWithPopup(auth,provider).then((data)=>{
+    setValue(data.user.email)
+    
+    localStorage.setItem("email",data.user.email)
+    console.log(value)
+  })
+  }
+  useEffect(()=>{
+    setValue(localStorage.getItem('email'))
+    console.log(value)
+  },[])
   return (
     <>
       <div className={styles.skip}>skip</div>
@@ -28,12 +52,14 @@ function Page1() {
           <hr className={styles.hr} /> <span className={styles.ortext}>OR</span> <hr className={styles.hr} />
         </div>
         <div className={styles.icons}>
-          <img className={styles.img1} src={img1} />
+        <button onClick={handleClick} > <img className={styles.img1} src={img1} /> </button>
+          
           <img className={styles.img2} src={img2} />
         </div>
         <div className={styles.acc}>
           If you dont have a account{" "}
-          <span className={styles.sign}>Sign up</span>
+          <Link className={styles.sign} to="/signupAuth" >Sign up</Link>
+          {/* <button  onClick={handleClick} ></button> */}
         </div>
         <div className={styles.term}>
           {/* By continuing you agree to the{" "}

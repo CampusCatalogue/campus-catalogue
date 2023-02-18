@@ -21,6 +21,7 @@ const SignIn = () => {
 const handleClick=()=>{
 signInWithPopup(auth,provider).then((data)=>{
   setValue(data.user.email)
+  // console.log(value)
   localStorage.setItem("email",data.user.email)
 })
 }
@@ -47,7 +48,7 @@ useEffect(()=>{
         <button type="submit">Log In</button>
       </form>
       <div>
-        {(value)?<p>google</p>:
+        {/* {(value)?<p>google</p>: */
         <button onClick={handleClick} > sign in with google </button>
         }
       </div>
