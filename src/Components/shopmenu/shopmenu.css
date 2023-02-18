@@ -157,7 +157,7 @@
 }
 .dishimg {
   width: 37vw;
-  height: 22vh;
+  height: 20vh;
   background-image: url("../../images/food\ 5.jpg");
   background-repeat: no-repeat;
   background-size: 37vw 22vh;
@@ -167,16 +167,17 @@
 
 
 .addbtn {
-  bottom: -77%;
+  bottom: -90%;
   left: 16%;
   width: 24vw;
   height: 7vw;
   font-size: 4.5vw;
   font-weight: 800;
   position: relative;
-  background: #6f7976;
+  background: #a7b0ad;
   border: 1px solid #000000;
   border-radius: 8px;
+  text-align: center;
 }
 .fixedmenubtn {
   z-index: 2;

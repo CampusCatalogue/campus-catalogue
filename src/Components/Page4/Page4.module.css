@@ -12,8 +12,8 @@
     margin-left: 5vw;
 }
 .sdiv{
-    margin-left: 14vw;
-    margin-top: 2vh;
+    margin-left: 7vw;
+    margin-top: 5vh;
     margin-bottom: 2vh;
 }
 .subdiv{
@@ -22,18 +22,20 @@
     border: 1px solid black;
     border-radius: 50px;
     width: 20vw;
-    height: 4vh;
+    height: 9vh;
     margin-right: 3vw;
+    padding:7px;
+    margin-top: 7px;
 }
 .order{
     font-weight: bolder;
-    font-size: 9vw;
+    font-size: 6vw;
     margin-top: 2vh;
     margin-bottom: 2vh;
     margin-left: 5vw;
 }
 .sdiv1{
-    margin-left: 8vw;
+    margin-left: 5vw;
     margin-top: 2vh;
     margin-bottom: 2vh;
 }
@@ -44,7 +46,8 @@
     border-radius: 50px;
     width: 20vw;
     height: 4vh;
-    margin-right: 3vw;
+    margin-right: 1vw;
+    padding: 4px;
 }
 .dish{
     font-size: 5vw;
@@ -68,7 +71,9 @@
 .gray{
     width:30vw;
     height: 30vw;
-    background-color: gray;
+    background-image: url("../../images/food-5.png");
+    background-repeat: no-repeat;
+    background-size: 30vw 30vw;
     position: absolute;
     left: 65vw;
     bottom: 115vw;
