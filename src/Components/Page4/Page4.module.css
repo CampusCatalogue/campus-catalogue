@@ -1,94 +1,125 @@
-
 .top>div{
     display: inline-block;
 }
 .top{
-    margin-top: 20px;
-    margin-left: 20px;
-    text-align: left;
+    margin-top: 5vh;
+    margin-left: 5vw;
+    font-size: 6vw;
 }
-.shop{
-    margin-left: 10px;
-}
-.search{
-    width: 20vw;
-    height:4vh;
-    border-radius: 30% 30%;
-    background-color: rgb(211, 210, 210);
-    margin-left: 20vw;
-    color: white;
-}
-.menu{
-    background-color: grey;
-    width: 10vw;
-    height: 10vw;
-    border-radius: 50%;
-    margin-left: 20px;
+.Search{
+    border: 1px solid black;
+    border-radius: 50px;
+    margin-left: 5vw;
 }
 .sdiv{
-    text-align: left;
-    margin-left: 40px;
+    margin-left: 14vw;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
 }
 .subdiv{
-    margin: 5px;
-    border: black 1px solid;
-    background-color: rgb(185, 182, 182);
+    background-color: rgb(196, 189, 189);
     color: black;
-    font-size: 3vw;
-    border-radius: 15%;
-    text-align: left;
-    /* width: 50vw; */
+    border: 1px solid black;
+    border-radius: 50px;
+    width: 20vw;
     height: 4vh;
-    padding: 5px;
+    margin-right: 3vw;
 }
 .order{
-    text-align: left;
-    margin-left: 20px;
-    font-size: 8vw;
     font-weight: bolder;
+    font-size: 9vw;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    margin-left: 5vw;
 }
 .sdiv1{
-    text-align: left;
-    margin-left: 20px;
+    margin-left: 8vw;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
 }
 .subdiv1{
-    margin: 5px;
-    border: black 1px solid;
-    background-color: rgb(185, 182, 182);
+    background-color: rgb(196, 189, 189);
     color: black;
-    font-size: 3vw;
-    border-radius: 15%;
-    text-align: left;
-    /* width: 50vw; */
+    border: 1px solid black;
+    border-radius: 50px;
+    width: 20vw;
     height: 4vh;
-    padding: 5px;
+    margin-right: 3vw;
 }
 .dish{
-    width: 40vw;
     font-size: 5vw;
-    font-weight: bolder;
-    text-align: left;
-    margin-left: 20px;
-    margin-top: 20px;
+    font-weight: bold;
+    margin-left: 5vw;
 }
 .rating{
-    text-align: left;
-    margin-left: 20px;
-    font-size: 3vw;
-    font-weight: bold;
-    margin-top: 1vw;
-}
-.price{
-    text-align: left;
-    margin-left: 20px;
     font-size: 4vw;
     font-weight: bolder;
-    margin-top: 3vw;
+    margin-left: 5vw;
+}
+.price{
+    font-size: 4vw;
+    font-weight: bolder;
+    margin-left: 5vw;
+    margin-top: 2vh;
 }
 .description{
-    font-size: 3vw;
-    color: rgb(190, 190, 190);
-    margin-left: 20px;
-    margin-right: 20px;
-    width: 1vw;
+    margin-left: 5vw;
+}
+.gray{
+    width:30vw;
+    height: 30vw;
+    background-color: gray;
+    position: absolute;
+    left: 65vw;
+    bottom: 115vw;
+}
+.img{
+    display: inline-block;
+    margin-bottom: 7vh;
+}
+.num{
+    background-color: orange;
+    color: white;
+    width: 20vw;
+    height: 4vh;
+    border-radius: 50px;
+    position: absolute;
+    left: 70vw;
+    top: 47vh;
+    text-align: center;
+    font-size: 5.5vw;
+
+}
+.time{
+    width: 80vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    padding-top: 1.5vh;
+    padding-left: 10vw;
+    height: 4vh;
+    background-color: rgb(189, 182, 182);
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 4vw;
+    font-weight: bold;
+    margin-top: 2vh;
+    margin-bottom: 4vh;
+
+}
+.payment{
+    background-color: orange;
+    color: white;
+    font-size: 10vw;
+    font-weight: bolder;
+    /* padding: 10vw; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:90vw;
+    height: 10vh;
+    margin-top: 10vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 4vh;
+    border-radius: 20px;
 }

@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 // import './App.css';
 // import logo from './logo.svg';
 import "./App.css";
@@ -20,6 +19,7 @@ import Page5 from "./Components/Page5/Page5";
 //     </div>
 //   );
 
+import logo from "./logo.svg";
 // import './App.css';
 // import Page1 from "./Components/Page1/Page1";
 // import Page2 from "./Components/Page2/Page2";

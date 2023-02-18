@@ -37,7 +37,9 @@ function ShopMenu() {
     return (
         <div>
             <div className="header">
-                <img src={BackIcon} alt="" className="backbtn" />
+                <Link to="/">
+                    <img src={BackIcon} alt="" className="backbtn" />
+                </Link>
                 <div className="searchbar">
                     <img src={SearchIcon} alt="" className="searchicon"></img>
                     <input
