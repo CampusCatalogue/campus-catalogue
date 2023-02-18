@@ -1,6 +1,6 @@
 .rect
 {
-    background-color: gray;
+    background-image: url("../../images/food-1.png");
     border: black 1px solid;
     color: black;
     border-radius: 10%;
