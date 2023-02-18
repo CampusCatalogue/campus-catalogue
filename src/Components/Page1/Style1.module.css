@@ -6,12 +6,18 @@
     width: 18vw;
     height: 8vw;
     margin-left: 80vw;
-    margin-top: 6vw;
-    margin-bottom: 80vw;
+    margin-top: 0vw;
+    margin-bottom: 40vw;
     display: flex;
     justify-content: center;
     align-items: center;
     
+}
+.back
+{
+    width:18vw;
+    height:8vw;
+
 }
 .log{
     font-size: 4vw;
