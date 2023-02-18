@@ -1,3 +1,5 @@
+import logo from "./logo.svg";
+// import './App.css';
 // import logo from './logo.svg';
 import "./App.css";
 import Page1 from "./Components/Page1/Page1";
@@ -30,6 +32,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import SignUp from "./SignUp";
 import SignIn from "./SignIn";
 import AuthDetails from "./AuthDetails";
+
+
 function App() {
     return (
         <div className="App">
@@ -45,6 +49,7 @@ function App() {
                  <Route exact path="/signinAuth" component={SignIn} />  */}
             <Router>
                 <Routes>
+                    <Route path="/signupAuth" element={<SignUp/>}></Route>
                     <Route path="/login" element={<Page1 />} />
                     <Route path="/signup" element={<Page2 />} />
                     <Route path="/aboutyou" element={<Page3 />} />
@@ -54,15 +59,18 @@ function App() {
                     <Route path="/Checkout" element={<Page5 />} />
                     <Route path="/Payment" element={<Page6 />} />
 
+                </Routes>
+            </Router>
                     {/* <Page2 /> */}
                     {/* <Page3 /> */}
                     {/* {<ShopMenu />} */}
-                </Routes>
-            </Router>
+                
+               
 
             {/* </Router> */}
         </div>
     );
 }
+
 
 export default App;
