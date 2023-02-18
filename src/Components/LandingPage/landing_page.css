@@ -1,0 +1,115 @@
+/* *{
+    overflow-x: hidden;
+} */
+
+.horz{
+    display: flex;
+    flex-direction: row;
+}
+.horz1
+{
+    justify-content: space-around;
+    flex-direction: row;
+}
+.rightcorner
+{
+    
+    align-content: flex-end;
+    position: relative;
+}
+.horzimages
+{
+    background-color: rgb(128, 128, 128); 
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    margin-top:2%;
+}
+.horzsp
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+.horzsp1
+{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+
+.temp
+{
+    height:5vh;
+    width:20vw;
+    background-color: rgb(128, 128, 128,0.2);
+}
+.topmost
+{
+    background-color: rgb(128, 128, 128,0.2);
+
+}
+.vert
+{
+    display: flex;
+    flex-direction: column;
+}
+.spps
+{
+    font-size: 1.6vh;
+    margin-top: 0vh;
+}
+.inpstyle
+{
+    background: transparent;
+    border: 1px solid black;
+    /* border-left: 0px; */
+    color: white;
+    height: 5vh;
+    width: 55vw;
+    padding-left: 10.2vw;
+    margin-top: 5%;
+    margin-left: 3%;
+    padding-right: 12%;
+    font-size: 3vw;
+}
+
+.searchicon
+{
+    width: 5vw;
+    height: 5vw;
+    margin-left: 3%;
+    margin-top: 6%;
+    padding-right: 12%;
+    /* -webkit-mask-position-y: center; */
+    position: absolute;
+}
+.dishesdiv
+{
+    overflow: scroll;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+    overflow-y: hidden;
+    margin-top: 1%;
+}
+
+.mood
+{
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+    justify-content: space-between;
+    width:100vw;
+    overflow-y: hidden;
+
+}
+.moodouter
+{
+    margin-left: 10%;
+    margin-right: 10%;
+}
