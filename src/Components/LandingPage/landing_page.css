@@ -68,16 +68,24 @@
     border: 1px solid black;
     /* border-left: 0px; */
     color: white;
-    height:5vh;
-    width:55vw;
-    padding-left:8.2vw;
+    height: 5vh;
+    width: 55vw;
+    padding-left: 10.2vw;
+    margin-top: 5%;
+    margin-left: 3%;
+    padding-right: 12%;
+    font-size: 3vw;
 }
 
 .searchicon
 {
-    position: relative;
-    top: 20%;
-    right:-11%;
+    width: 5vw;
+    height: 5vw;
+    margin-left: 3%;
+    margin-top: 6%;
+    padding-right: 12%;
+    /* -webkit-mask-position-y: center; */
+    position: absolute;
 }
 .dishesdiv
 {
@@ -87,6 +95,7 @@
     justify-content: space-between;
     width: 100vw;
     overflow-y: hidden;
+    margin-top: 1%;
 }
 
 .mood
@@ -98,4 +107,9 @@
     width:100vw;
     overflow-y: hidden;
 
+}
+.moodouter
+{
+    margin-left: 10%;
+    margin-right: 10%;
 }
