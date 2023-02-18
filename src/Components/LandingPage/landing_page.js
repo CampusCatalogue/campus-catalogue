@@ -18,7 +18,11 @@ const LandingPage = () => {
                 <div className="horzsp1">
                     <Link to="/login">
                         <img
-                            style={{ width: "7vw", height: "7vw" }}
+                            style={{
+                                width: "7vw",
+                                height: "7vw",
+                                margin: "3vw",
+                            }}
                             src={hamburger}
                             alt=""
                         />
@@ -34,8 +38,8 @@ const LandingPage = () => {
                     <div
                         style={{
                             borderRadius: "100%",
-                            height: "4vh",
-                            width: "10vw",
+                            height: "40px",
+                            width: "40px",
                         }}
                         className="temp"
                     ></div>
@@ -54,7 +58,9 @@ const LandingPage = () => {
                 </div>
             </div>
             <div style={{ paddingLeft: "1vw" }}>
-                <p>Hey what is your Mood?</p>
+                <h3>
+                    <p>Hey what is your Mood?</p>
+                </h3>
                 <div className="mood">
                     <div className="moodouter">
                         <MoodComp></MoodComp>
@@ -80,7 +86,9 @@ const LandingPage = () => {
                 </div>
             </div>
             <div>
-                <span>Here are some Dishes</span>
+                <h3>
+                    <span>Here are some Dishes</span>
+                </h3>
                 <div className="dishesdiv">
                     <DishesComp dish="chicken"></DishesComp>
                     <DishesComp dish="chicken"></DishesComp>
@@ -95,7 +103,9 @@ const LandingPage = () => {
                 </div>
             </div>
             <div>
-                <p style={{ marginTop: "5%" }}>Restaurants around you</p>
+                <h3>
+                    <p style={{ marginTop: "10%" }}>Restaurants around you</p>
+                </h3>
                 <RestComp></RestComp>
             </div>
             <div className="horzimages">
