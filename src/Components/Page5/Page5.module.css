@@ -1,0 +1,136 @@
+.top>div{
+    display: inline-block;
+}
+.top{
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: left;
+    font-size: 7vw;
+}
+.shop{
+    margin-left: 10px;
+}
+.time{
+    width: 80vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    padding-top: 1.5vh;
+    padding-left: 10vw;
+    height: 4vh;
+    background-color: rgb(189, 182, 182);
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 4vw;
+    font-weight: bold;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+
+}
+.item{
+    text-align: center;
+    font-size: 7vw;
+    color: rgb(165, 157, 157);
+}
+.list{
+    width: 80vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    background-color: rgb(206, 201, 201);
+    color: black;
+    margin-top: 3vh;
+    border-radius: 10px;
+}
+.items{
+    margin-bottom: 4vh;
+}
+.name{
+    font-weight: bold;
+    font-size: 5vw;
+}
+.num1{
+    display: inline-block;
+    width: 12vw;
+    height: 3vh;
+    margin-left: 10vw;
+    background-color: rgb(254, 161, 149);
+    color: white;
+    padding-left: 2vw;
+    border-radius: 10px;
+    padding-left: 4vw;
+    border: 1px solid red;
+}
+.num2{
+    display: inline-block;
+    width: 12vw;
+    height: 3vh;
+    margin-left: 34vw;
+    background-color: rgb(254, 161, 149);
+    color: white;
+    padding-left: 2vw;
+    border-radius: 10px;
+    padding-left: 4vw;
+    border: 1px solid red;
+}
+.num3{
+    display: inline-block;
+    width: 12vw;
+    height: 3vh;
+    margin-left: 30vw;
+    background-color: rgb(254, 161, 149);
+    color: white;
+    padding-left: 2vw;
+    border-radius: 10px;
+    padding-left: 4vw;
+    border: 1px solid red;
+}
+.p1{
+    font-weight: bold;
+}
+.p2{
+    font-weight: bold;
+    margin-left: 60vw;
+}
+.total{
+    font-size: 5vw;
+    font-weight: bold;
+}
+.sum{
+    font-size: 5vw;
+    font-weight: bold;
+    margin-left: 50vw;
+}
+.add{
+    background-color: rgb(206, 201, 201);
+    font-size: 5vw;
+    font-weight: bold;
+    padding-left: 4vw;
+    border: 1px solid black;
+    border-radius: 40px;
+    width: 85vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 2vh;
+    height: 5vh;
+    padding-top: 2vh;
+}
+.payment{
+    background-color: orange;
+    color: white;
+    font-size: 10vw;
+    font-weight: bolder;
+    /* padding: 10vw; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:90vw;
+    height: 10vh;
+    margin-top: 10vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 4vh;
+    border-radius: 20px;
+}
