@@ -13,7 +13,7 @@ import "./landing_page.css";
 const LandingPage = () => {
     return (
         <div style={{ overflowY: "hidden" }}>
-            <div className="topmost" style={{ height: "40vw" }}>
+            <div className="topmost" style={{ height: "45vw" }}>
                 <div className="horzsp1">
                     <img
                         style={{ width: "7vw", height: "7vw" }}
@@ -21,7 +21,7 @@ const LandingPage = () => {
                         alt=""
                     />
                     <div className="searchbox">
-                        <img className="searchicon" src={search} alt="" />
+                        <img className="searchicn" src={search} alt="" />
                         <input
                             className="inpstyle"
                             type="text"
@@ -53,13 +53,27 @@ const LandingPage = () => {
             <div style={{ paddingLeft: "1vw" }}>
                 <p>Hey what is your Mood?</p>
                 <div className="mood">
+                    <div className="moodouter">
                     <MoodComp></MoodComp>
+                    </div>
+                    <div className="moodouter">
                     <MoodComp></MoodComp>
+                    </div>
+                    <div className="moodouter">
                     <MoodComp></MoodComp>
+                    </div>
+                    <div className="moodouter">
                     <MoodComp></MoodComp>
+                    </div>
+                    <div className="moodouter">
                     <MoodComp></MoodComp>
+                    </div>
+                    <div className="moodouter">
                     <MoodComp></MoodComp>
+                    </div>
+                    <div className="moodouter">
                     <MoodComp></MoodComp>
+                    </div>
                 </div>
             </div>
             <div>
@@ -78,7 +92,7 @@ const LandingPage = () => {
                 </div>
             </div>
             <div>
-                <p>Restaurants around you</p>
+                <p style={{marginTop:"5%"}} >Restaurants around you</p>
                 <RestComp></RestComp>
             </div>
             <div className="horzimages">
