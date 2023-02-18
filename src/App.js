@@ -7,6 +7,7 @@ import Page3 from "./Components/Page3/Page3";
 import Page4 from "./Components/Page4/Page4";
 import Page6 from "./Components/Page6/Page6";
 import Page5 from "./Components/Page5/Page5";
+import PaymentPage from "./backend/index";
 // function App() {
 //   return (
 //     <div className="App">
@@ -56,8 +57,11 @@ function App() {
                     <Route path="/Confirm" element={<Page4 />} />
                     <Route path="/Checkout" element={<Page5 />} />
                     <Route path="/Payment" element={<Page6 />} />
+                    <Route path="/PaymentPage" element={<PaymentPage />} />
                 </Routes>
             </Router>
+
+            
             {/* <Page2 /> */}
             {/* <Page3 /> */}
             {/* {<ShopMenu />} */}
