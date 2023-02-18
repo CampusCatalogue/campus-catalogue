@@ -196,3 +196,6 @@
   display: flex;
   position: relative;
 }
+.readmorebtn:hover{
+  color: rgb(66, 221, 239);
+}
